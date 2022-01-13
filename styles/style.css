@@ -152,3 +152,14 @@ hr {
     flex-direction: column;
   }
 }
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .blogs,
+  .players,
+  .courses {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 10px;
+  }
+}
